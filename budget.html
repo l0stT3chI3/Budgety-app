@@ -1,0 +1,53 @@
+<html>
+
+<head>
+    <title>
+        A Budget calculator app...
+    </title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:100,300,400,600" rel="stylesheet" type="text/css">
+    <link href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="ui.css">
+</head>
+
+<body>
+    <div class="budget">
+        <div class="available">Available Budget in<span class="month"> %Month%:</span></div>
+        <div class="full">+ 2,345.64</div>
+        <div class="income">
+            <div class="inc"><span class="word">INCOME</span><span class="dgt">+ 4,300.000</span></div>
+        </div>
+        <div class="expense">
+            <div class="exp"><span class="word2">EXPENSES</span><span class="dgt2">- 1,954.36</span><span
+                    class="per">45%</span></span></div>
+        </div>
+    </div>
+    <div class="add">
+        <select class="option">
+            <option value="inc">+</option>
+            <option value="exp">-</option>
+        </select>
+        <input type="text" class="adds" placeholder="Add Description">
+        <input type="number" class="value" placeholder="Value">
+        <button class="ok"><i class="ion-ios-checkmark-outline"></i></button>
+    </div>
+    <div class="container">
+        <div class="first">
+            <span class="all">INCOME</span>
+            <!--<div class="box1">
+                <div class="gt"><span class="cf">rent</span><span class="judgk">13255</span></span></div>
+                <button class="item__delete--btn"><i class="ion-ios-close-outline"></i></button>
+            </div>!-->
+        </div>
+        <div class="second">
+            <span class="all2">EXPENSES</span>
+            <!--<div class="box2">
+                <div class="gt2"><span class="cf2">rent</span><span class="judgk2">13255</span></span></div>
+                <button class="item__delete--btn"><i class="ion-ios-close-outline"></i> </button>
+            </div>!-->
+
+        </div>
+    </div>
+    <script src="controller.js"></script>
+</body>
+
+</html>
